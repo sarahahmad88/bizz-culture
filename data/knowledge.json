@@ -1,0 +1,56 @@
+{
+  "version": "practice-1.0",
+  "review_status": "Draft training examples; not expert-validated",
+  "source": "https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/",
+  "country_scores": {},
+  "dimensions": {
+    "power_distance": {"label": "Power Distance", "lesson": "Consider how role differences affect speaking up. Respectful disagreement need not mean silence or automatic agreement."},
+    "individualism": {"label": "Individualism / Collectivism", "lesson": "Consider personal responsibility and group commitments together. Ask what collaboration means to this particular counterpart."},
+    "achievement": {"label": "Achievement Orientation", "lesson": "Discuss performance expectations alongside cooperation and wellbeing. The framework's legacy label is Masculinity/Femininity; it does not describe an individual's gender."},
+    "uncertainty_avoidance": {"label": "Uncertainty Avoidance", "lesson": "Make assumptions, risks and next steps explicit when clarity matters. Avoid promising certainty you cannot support."},
+    "long_term": {"label": "Long-Term Orientation", "lesson": "Explore future benefits and immediate constraints without assuming that one time horizon is always preferable."},
+    "indulgence": {"label": "Indulgence / Restraint", "lesson": "Discuss leisure and duty sensitively when relevant. Do not force this dimension into unrelated workplace evaluations."}
+  },
+  "anchors": {
+    "0": "Clearly counterproductive behavior in this situation, with explicit evidence; not merely a different style.",
+    "1": "Significant adaptation needed; the goal or relationship is materially undermined.",
+    "2": "Some adaptation needed; an important contextual need is insufficiently addressed.",
+    "3": "Generally appropriate; the response addresses the immediate issue reasonably.",
+    "4": "Strong contextual awareness; the response handles the relevant tension constructively.",
+    "5": "Highly effective contextual adaptation; the goal and counterpart's stated concerns are handled well."
+  },
+  "templates": {
+    "deadline": {
+      "name": "Raise a concern about a deadline",
+      "context": "Workplace project meeting",
+      "situation": "Testing requires three weeks, but the proposed release deadline is two weeks. The deadline has not been agreed with the client yet.",
+      "my_role": "Junior project colleague",
+      "other_role": "Senior project manager",
+      "goal": "Raise the testing risk and negotiate a realistic next step while maintaining a constructive working relationship.",
+      "preferences": "This fictional manager values being kept informed, clear evidence and feasible plans. These are scenario-specific preferences, not facts about the selected nationality.",
+      "relevant": ["power_distance", "uncertainty_avoidance"],
+      "criteria": {
+        "power_distance": "Communicates a legitimate concern respectfully across a role difference. Direct and indirect disagreement can both succeed. Do not reward submission or penalize reasonable boundaries.",
+        "uncertainty_avoidance": "Makes the testing constraint, uncertainty or a feasible next step clear when relevant. Do not require every conversational reply to repeat the entire plan."
+      },
+      "opening": "We are considering a release in two weeks. What concerns or suggestions would you like us to discuss?",
+      "followups": ["What testing requirement is creating the greatest risk?", "What option would balance quality with the deadline?", "How could we explain the trade-off to the team?", "Which part of the plan can we agree on now?", "What information should we check before making a commitment?"]
+    },
+    "group_project": {
+      "name": "Agree on a group project plan",
+      "context": "University collaboration",
+      "situation": "A presentation is due next week. Two teammates want individual sections; another wants everyone to review every slide. No division of work has been agreed.",
+      "my_role": "Student team member",
+      "other_role": "Peer project coordinator",
+      "goal": "Agree on responsibilities and a review plan that respects individual contributions and the shared outcome.",
+      "preferences": "This fictional coordinator values shared ownership and clear responsibilities. These are personal scenario preferences, not predictions from nationality.",
+      "relevant": ["individualism", "uncertainty_avoidance"],
+      "criteria": {
+        "individualism": "Balances individual contributions and shared commitments while acknowledging others' preferences. Either independent work or joint work may be reasonable if negotiated constructively.",
+        "uncertainty_avoidance": "Clarifies responsibilities, deadlines or how to resolve an unknown when relevant. A valid question may earn credit without already having the whole solution."
+      },
+      "opening": "Some of us want separate sections and others want to work on every slide together. How do you suggest we organize the project?",
+      "followups": ["How should we decide who owns each task?", "What would make the review process fair?", "How could we handle a teammate who needs more support?", "What checkpoint could help us avoid a last-minute surprise?", "Which part of your proposal should we try first?"]
+    }
+  }
+}
